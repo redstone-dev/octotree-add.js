@@ -1,2 +1,1 @@
-require 'json'
-print('json=#{JSON}')
+require 'json' print('json=#{JSON}')

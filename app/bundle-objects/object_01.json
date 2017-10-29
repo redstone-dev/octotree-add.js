@@ -1,1 +1,8 @@
-
+"octotree":{
+  "octotree-browsers":[
+    "Chrome",
+    "Safari",
+    "Opera",
+    "Firefox"
+  ]
+}

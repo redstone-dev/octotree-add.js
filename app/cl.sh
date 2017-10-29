@@ -1,1 +1,2 @@
-npm install --node
+npm install --node.js
+npm install --jquery

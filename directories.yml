@@ -1,4 +1,4 @@
-app:
+app: >
 	- bundle-gems:
 		- gem-manifest.md
 		- gem_01.rb
@@ -13,9 +13,9 @@ app:
 	- Queries.js
 	- cl.sh
 	- server.rb
-jekyll:
+jekyll: >
 	- _config.yml
-others:
+others: >
 	- .github
 	- .gitignore
 	- ISSUE_TEMPLATE.md

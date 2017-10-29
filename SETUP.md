@@ -1,7 +1,7 @@
 # Setup
 Basically, all you need is a *`repository`*`/main/octo-add.rb` and you're raring to go!
 
-First, type:
+First, type: 
 ```ruby
 require 'json' # This program needs JSON to output JSON values.
 def init

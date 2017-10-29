@@ -22,5 +22,5 @@ others: >
 	- LICENSE
 	- README.md
 	- SETUP.md
-	- directories.yml #This file!
+	- directories.yml
         - pkg

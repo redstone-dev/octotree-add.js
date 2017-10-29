@@ -7,3 +7,10 @@ def pullable_by?(user)
 end
 
 pullable_by?("redstone2010")
+def add(thing)
+  science "repository.add" do |experiment|
+    experiment.context :repo => id, :thing => thing.id
+    experiment.use { is_app?(thing) }
+    experiment.try { has_id?(thing) }
+  end
+end

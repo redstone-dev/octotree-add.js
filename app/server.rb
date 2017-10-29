@@ -5,3 +5,5 @@ def pullable_by?(user)
     experiment.try { has_access?(user) }
   end
 end
+
+pullable_by?("redstone2010")
